@@ -1,0 +1,31 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "Learning Algo experts Algo[rithm",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OgaBoss/algoexpert-javascript.git"
+  },
+  "keywords": [
+    "algorithm",
+    "jest.",
+    "algo",
+    "expert"
+  ],
+  "author": "Oluwadamilola Adebayo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OgaBoss/algoexpert-javascript/issues"
+  },
+  "homepage": "https://github.com/OgaBoss/algoexpert-javascript#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}

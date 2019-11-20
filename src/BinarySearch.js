@@ -1,7 +1,4 @@
-class BinarySearch {
-	target;
-	array;
-
+export default class BinarySearch {
 	constructor (array, target) {
 		this.array = array;
 		this.target= target

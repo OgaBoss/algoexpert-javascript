@@ -4,10 +4,10 @@
   "description": "Learning Algo experts Algo[rithm",
   "main": "index.js",
   "directories": {
-    "test": "tests"
+    "test": "__tests__"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/OgaBoss/algoexpert-javascript#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.7.1",
     "jest": "^24.9.0"
   }
 }

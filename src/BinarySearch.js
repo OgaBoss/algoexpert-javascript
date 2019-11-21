@@ -10,6 +10,24 @@ export default class BinarySearch {
 		return this.searchHelper(left, right)
 	}
 
+	iterationSearch() {
+		let left = 0;
+		let right = this.array.length - 1;
+		while (left < right) {
+			const middle = Math.floor((left + right) / 2);
+			const potentialMatch = this.array[middle];
+			if (potentialMatch === this.target) {
+				return middle
+			} else if(this.target > potentialMatch) {
+				left = middle + 1
+			} else {
+				right = middle - 1
+			}
+		}
+
+		return -1;
+	}
+
 	searchHelper(left, right) {
 		if (left > right) {
 			return -1

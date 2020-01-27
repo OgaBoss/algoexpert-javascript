@@ -1,3 +1,9 @@
+/**
+ * Time: O(n)
+ * Space: O(1)
+ * Class FindThreeLargestNumber
+ */
+
 export default class FindLargestThreeNumbers {
   largestThreeNumber = [null, null, null]
   
